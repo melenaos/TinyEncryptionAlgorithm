@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Menelabs.TinyEncryptionAlgorithm</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <licenseUrl>https://github.com/melenaos/TinyEncryptionAlgorithm/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/melenaos/TinyEncryptionAlgorithm/</projectUrl>
+    <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes>Initial TEA implementation.</releaseNotes>
+    <copyright>Copyright 2016</copyright>
+    <tags>TEA Encryption</tags>
+  </metadata>
+  <files>
+    <!-- Add a readme -->
+    <file src="readme.txt" target="" />
+  </files>
+</package>
