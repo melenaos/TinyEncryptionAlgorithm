@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Menelabs.TinyEncryptionAlgorithm</id>
+    <version>0.9.0</version>
+    <title>TinyEncryptionAlgorithm</title>
+    <authors>Menelabs</authors>
+    <owners>Menelabs</owners>
+    <licenseUrl>https://github.com/melenaos/TinyEncryptionAlgorithm/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/melenaos/TinyEncryptionAlgorithm/</projectUrl>
+    <iconUrl>http://menelabs.blob.core.windows.net/hosting/tea_logo.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Implements the Tiny Encryption Algorithm in C#</description>
+    <releaseNotes>Build on .NetStandard</releaseNotes>
+    <copyright>Copyright 2016</copyright>
+    <tags>TEA Encryption</tags>
+  </metadata>
+  <files>
+    <file src="bin\Release\Menelabs.TinyEncryptionAlgorithm.dll" target="lib\netstandard1.4\Menelabs.TinyEncryptionAlgorithm.dll" />
+    <file src="bin\Release\Menelabs.TinyEncryptionAlgorithm.xml" target="lib\netstandard1.4\Menelabs.TinyEncryptionAlgorithm.xml" />
+  </files>
+</package>

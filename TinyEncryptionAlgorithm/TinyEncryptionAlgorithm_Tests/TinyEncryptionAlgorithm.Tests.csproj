@@ -64,9 +64,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\TinyEncryptionAlgorithm\TinyEncryptionAlgorithm.csproj">
-      <Project>{e6fc2816-84c2-4fff-a6c0-a304b1b147cb}</Project>
-      <Name>TinyEncryptionAlgorithm</Name>
+    <ProjectReference Include="..\Menelabs.TinyEncryptionAlgorithm\Menelabs.TinyEncryptionAlgorithm.csproj">
+      <Project>{044990e2-28a5-434b-9d06-40d69372785c}</Project>
+      <Name>Menelabs.TinyEncryptionAlgorithm</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>
