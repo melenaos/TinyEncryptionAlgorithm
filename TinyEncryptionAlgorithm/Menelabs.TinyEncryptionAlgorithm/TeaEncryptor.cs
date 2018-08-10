@@ -91,7 +91,11 @@ namespace Menelabs.TinyEncryptionAlgorithm
         /// </summary>
         /// <param name="encrypted">String to be decrypted</param>
         /// <param name="_cryptoKey">Password to be used for decryption (1st 16 chars)</param>
-        /// <returns></returns>
+        /// <returns> 
+        /// - Empty string if the parameter is empty string.
+        /// - Null if the Encrypted string is not Base64
+        /// - Decrypted text if the parameter is valid
+        /// </returns>
         public string Decrypt(string encrypted)
         {
 
